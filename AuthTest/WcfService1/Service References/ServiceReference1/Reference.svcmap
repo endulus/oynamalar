@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="f5273478-0003-4a37-9bff-db3e0bb28163" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:37687/LogicService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="LogicService.wsdl" MetadataType="Wsdl" ID="c73aee31-4dad-4425-a696-aa0b9ecdc195" SourceId="1" SourceUrl="http://localhost:37687/LogicService.svc?wsdl" />
+    <MetadataFile FileName="LogicService.xsd" MetadataType="Schema" ID="8e88d2a9-a1fd-4fca-9ebc-8e0d732d0478" SourceId="1" SourceUrl="http://localhost:37687/LogicService.svc?xsd=xsd0" />
+    <MetadataFile FileName="LogicService.disco" MetadataType="Disco" ID="afd39d19-bb21-4ea3-bb7b-79adca27a93a" SourceId="1" SourceUrl="http://localhost:37687/LogicService.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
