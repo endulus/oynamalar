@@ -4,3 +4,11 @@ E:\Code\arge\wcf\AuthTest\WcfService1\obj\Debug\AuthService.dll
 E:\Code\arge\wcf\AuthTest\WcfService1\obj\Debug\AuthService.pdb
 E:\Code\arge\wcf\AuthTest\WcfService1\bin\Sider.dll
 E:\Code\arge\wcf\AuthTest\WcfService1\obj\Debug\AuthService.csprojResolveAssemblyReference.cache
+D:\DATA\Documents\GitHub\oynamalar\AuthTest\WcfService1\bin\AuthService.dll
+D:\DATA\Documents\GitHub\oynamalar\AuthTest\WcfService1\bin\AuthService.pdb
+D:\DATA\Documents\GitHub\oynamalar\AuthTest\WcfService1\bin\Sider.dll
+D:\DATA\Documents\GitHub\oynamalar\AuthTest\WcfService1\obj\Debug\AuthService.csprojResolveAssemblyReference.cache
+D:\DATA\Documents\GitHub\oynamalar\AuthTest\WcfService1\obj\Debug\AuthService.dll
+D:\DATA\Documents\GitHub\oynamalar\AuthTest\WcfService1\obj\Debug\AuthService.pdb
+D:\DATA\Documents\GitHub\oynamalar\AuthTest\WcfService1\bin\Common.dll
+D:\DATA\Documents\GitHub\oynamalar\AuthTest\WcfService1\bin\Common.pdb

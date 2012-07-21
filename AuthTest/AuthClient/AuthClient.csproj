@@ -11,7 +11,8 @@
     <RootNamespace>AuthClient</RootNamespace>
     <AssemblyName>AuthClient</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
-    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
@@ -34,6 +35,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Sider">
+      <HintPath>..\packages\Sider.0.9\lib\net40-Client\Sider.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Runtime.Serialization" />
@@ -56,12 +60,27 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service References\AuthServiceNs\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\LogicServiceNS\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
     <Compile Include="Service References\TestService\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
     <Compile Include="Service References\TokenService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\TransferServiceNs\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
@@ -77,8 +96,10 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="app.config" />
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -88,6 +109,17 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Service References\AuthServiceNs\AuthService.wsdl" />
+    <None Include="Service References\AuthServiceNs\AuthService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\AuthServiceNs\AuthService1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LogicServiceNS\LogicService.wsdl" />
+    <None Include="Service References\LogicServiceNS\LogicService.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Service References\TestService\AuthClient.TestService.CompositeType.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
@@ -108,13 +140,23 @@
     <None Include="Service References\TokenService\TokenService1.xsd">
       <SubType>Designer</SubType>
     </None>
+    <None Include="Service References\TransferServiceNs\TransferService.wsdl" />
+    <None Include="Service References\TransferServiceNs\TransferService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\TransferServiceNs\TransferService1.xsd">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
+    <WCFMetadataStorage Include="Service References\AuthServiceNs\" />
+    <WCFMetadataStorage Include="Service References\LogicServiceNS\" />
     <WCFMetadataStorage Include="Service References\TestService\" />
     <WCFMetadataStorage Include="Service References\TokenService\" />
+    <WCFMetadataStorage Include="Service References\TransferServiceNs\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Service References\TestService\TestService.disco" />
@@ -142,6 +184,57 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Service References\TokenService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LogicServiceNS\LogicService.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LogicServiceNS\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LogicServiceNS\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LogicServiceNS\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{6466FF48-19AD-4AAD-9A52-5D280BA26F26}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\AuthServiceNs\AuthService.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\AuthServiceNs\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\AuthServiceNs\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\AuthServiceNs\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\TransferServiceNs\TransferService.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\TransferServiceNs\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\TransferServiceNs\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\TransferServiceNs\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>

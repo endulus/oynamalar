@@ -3,3 +3,11 @@ E:\Code\arge\wcf\AuthTest\BussService\bin\AuthService.pdb
 E:\Code\arge\wcf\AuthTest\BussService\obj\Debug\AuthService.dll
 E:\Code\arge\wcf\AuthTest\BussService\obj\Debug\AuthService.pdb
 E:\Code\arge\wcf\AuthTest\BussService\bin\Sider.dll
+D:\DATA\Documents\GitHub\oynamalar\AuthTest\BussService\bin\BussService.dll
+D:\DATA\Documents\GitHub\oynamalar\AuthTest\BussService\bin\BussService.pdb
+D:\DATA\Documents\GitHub\oynamalar\AuthTest\BussService\bin\Sider.dll
+D:\DATA\Documents\GitHub\oynamalar\AuthTest\BussService\obj\Debug\BussService.dll
+D:\DATA\Documents\GitHub\oynamalar\AuthTest\BussService\obj\Debug\BussService.pdb
+D:\DATA\Documents\GitHub\oynamalar\AuthTest\BussService\bin\Common.dll
+D:\DATA\Documents\GitHub\oynamalar\AuthTest\BussService\bin\Common.pdb
+D:\DATA\Documents\GitHub\oynamalar\AuthTest\BussService\obj\Debug\BussService.csprojResolveAssemblyReference.cache

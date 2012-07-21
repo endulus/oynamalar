@@ -6,7 +6,7 @@ using System.IdentityModel.Selectors;
 using System.ServiceModel;
 using System.Diagnostics;
 
-namespace AuthService
+namespace BussService
 {
     public class UsernameValidator : UserNamePasswordValidator
     {

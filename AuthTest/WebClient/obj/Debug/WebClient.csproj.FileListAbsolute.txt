@@ -1,0 +1,8 @@
+D:\DATA\Documents\GitHub\oynamalar\AuthTest\WebClient\bin\WebClient.dll
+D:\DATA\Documents\GitHub\oynamalar\AuthTest\WebClient\bin\WebClient.pdb
+D:\DATA\Documents\GitHub\oynamalar\AuthTest\WebClient\obj\Debug\WebClient.dll
+D:\DATA\Documents\GitHub\oynamalar\AuthTest\WebClient\obj\Debug\WebClient.pdb
+D:\DATA\Documents\GitHub\oynamalar\AuthTest\WebClient\bin\Common.dll
+D:\DATA\Documents\GitHub\oynamalar\AuthTest\WebClient\bin\Common.pdb
+D:\DATA\Documents\GitHub\oynamalar\AuthTest\WebClient\bin\Sider.dll
+D:\DATA\Documents\GitHub\oynamalar\AuthTest\WebClient\obj\Debug\WebClient.csprojResolveAssemblyReference.cache

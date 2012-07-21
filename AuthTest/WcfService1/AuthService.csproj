@@ -58,6 +58,8 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CoreModel\AuthService.svc" />
+    <Content Include="CoreModel\TransferService.svc" />
     <Content Include="packages.config" />
     <None Include="Service References\ServiceReference1\LogicService.disco" />
     <None Include="Service References\ServiceReference1\configuration91.svcinfo" />
@@ -68,7 +70,9 @@
     </None>
     <Content Include="TokenService.svc" />
     <Content Include="TestService.svc" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -77,6 +81,14 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CoreModel\IAuthService.cs" />
+    <Compile Include="CoreModel\AuthService.svc.cs">
+      <DependentUpon>AuthService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="CoreModel\ITransferService.cs" />
+    <Compile Include="CoreModel\TransferService.svc.cs">
+      <DependentUpon>TransferService.svc</DependentUpon>
+    </Compile>
     <Compile Include="Service References\ServiceReference1\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -107,6 +119,12 @@
     <None Include="Service References\ServiceReference1\LogicService.xsd">
       <SubType>Designer</SubType>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{6466FF48-19AD-4AAD-9A52-5D280BA26F26}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />

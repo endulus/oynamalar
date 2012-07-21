@@ -1,0 +1,7 @@
+<Modules>
+  <Module PersistentId="1AC0E0A1-AB42-43FA-AFDD-6DBD3E54952F" ModuleId="AuthClient" />
+  <Module PersistentId="F01A532D-F9C7-4939-928E-40E0C98E318F" ModuleId="AuthService" />
+  <Module PersistentId="4143E477-AECE-44D1-B85A-350A0089925D" ModuleId="BussService" />
+  <Module PersistentId="7750B251-52A9-4B82-9584-45E88AE5A056" ModuleId="WebClient" />
+  <Module PersistentId="6466FF48-19AD-4AAD-9A52-5D280BA26F26" ModuleId="Common" />
+</Modules>

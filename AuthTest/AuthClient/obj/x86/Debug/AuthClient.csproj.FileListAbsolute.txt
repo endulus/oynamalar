@@ -6,3 +6,15 @@ E:\Code\arge\wcf\AuthTest\AuthClient\obj\x86\Debug\AuthClient.Properties.Resourc
 E:\Code\arge\wcf\AuthTest\AuthClient\obj\x86\Debug\AuthClient.csproj.GenerateResource.Cache
 E:\Code\arge\wcf\AuthTest\AuthClient\obj\x86\Debug\AuthClient.exe
 E:\Code\arge\wcf\AuthTest\AuthClient\obj\x86\Debug\AuthClient.pdb
+D:\DATA\Documents\GitHub\oynamalar\AuthTest\AuthClient\bin\Debug\AuthClient.exe.config
+D:\DATA\Documents\GitHub\oynamalar\AuthTest\AuthClient\bin\Debug\AuthClient.exe
+D:\DATA\Documents\GitHub\oynamalar\AuthTest\AuthClient\bin\Debug\AuthClient.pdb
+D:\DATA\Documents\GitHub\oynamalar\AuthTest\AuthClient\obj\x86\Debug\AuthClient.Form1.resources
+D:\DATA\Documents\GitHub\oynamalar\AuthTest\AuthClient\obj\x86\Debug\AuthClient.Properties.Resources.resources
+D:\DATA\Documents\GitHub\oynamalar\AuthTest\AuthClient\obj\x86\Debug\AuthClient.csproj.GenerateResource.Cache
+D:\DATA\Documents\GitHub\oynamalar\AuthTest\AuthClient\obj\x86\Debug\AuthClient.exe
+D:\DATA\Documents\GitHub\oynamalar\AuthTest\AuthClient\obj\x86\Debug\AuthClient.pdb
+D:\DATA\Documents\GitHub\oynamalar\AuthTest\AuthClient\obj\x86\Debug\AuthClient.csprojResolveAssemblyReference.cache
+D:\DATA\Documents\GitHub\oynamalar\AuthTest\AuthClient\bin\Debug\Common.dll
+D:\DATA\Documents\GitHub\oynamalar\AuthTest\AuthClient\bin\Debug\Sider.dll
+D:\DATA\Documents\GitHub\oynamalar\AuthTest\AuthClient\bin\Debug\Common.pdb
