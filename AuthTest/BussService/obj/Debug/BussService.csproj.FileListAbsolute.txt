@@ -1,0 +1,5 @@
+E:\Code\arge\wcf\AuthTest\BussService\bin\AuthService.dll
+E:\Code\arge\wcf\AuthTest\BussService\bin\AuthService.pdb
+E:\Code\arge\wcf\AuthTest\BussService\obj\Debug\AuthService.dll
+E:\Code\arge\wcf\AuthTest\BussService\obj\Debug\AuthService.pdb
+E:\Code\arge\wcf\AuthTest\BussService\bin\Sider.dll

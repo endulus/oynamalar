@@ -1,0 +1,8 @@
+E:\Code\arge\wcf\AuthTest\AuthClient\bin\Debug\AuthClient.exe.config
+E:\Code\arge\wcf\AuthTest\AuthClient\bin\Debug\AuthClient.exe
+E:\Code\arge\wcf\AuthTest\AuthClient\bin\Debug\AuthClient.pdb
+E:\Code\arge\wcf\AuthTest\AuthClient\obj\x86\Debug\AuthClient.Form1.resources
+E:\Code\arge\wcf\AuthTest\AuthClient\obj\x86\Debug\AuthClient.Properties.Resources.resources
+E:\Code\arge\wcf\AuthTest\AuthClient\obj\x86\Debug\AuthClient.csproj.GenerateResource.Cache
+E:\Code\arge\wcf\AuthTest\AuthClient\obj\x86\Debug\AuthClient.exe
+E:\Code\arge\wcf\AuthTest\AuthClient\obj\x86\Debug\AuthClient.pdb

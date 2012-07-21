@@ -1,0 +1,5 @@
+E:\Code\arge\wcf\AuthTest\BusinessService\bin\Debug\BusinessService.dll.config
+E:\Code\arge\wcf\AuthTest\BusinessService\bin\Debug\BusinessService.dll
+E:\Code\arge\wcf\AuthTest\BusinessService\bin\Debug\BusinessService.pdb
+E:\Code\arge\wcf\AuthTest\BusinessService\obj\Debug\BusinessService.dll
+E:\Code\arge\wcf\AuthTest\BusinessService\obj\Debug\BusinessService.pdb

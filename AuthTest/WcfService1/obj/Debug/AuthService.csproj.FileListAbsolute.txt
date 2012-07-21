@@ -1,0 +1,6 @@
+E:\Code\arge\wcf\AuthTest\WcfService1\bin\AuthService.dll
+E:\Code\arge\wcf\AuthTest\WcfService1\bin\AuthService.pdb
+E:\Code\arge\wcf\AuthTest\WcfService1\obj\Debug\AuthService.dll
+E:\Code\arge\wcf\AuthTest\WcfService1\obj\Debug\AuthService.pdb
+E:\Code\arge\wcf\AuthTest\WcfService1\bin\Sider.dll
+E:\Code\arge\wcf\AuthTest\WcfService1\obj\Debug\AuthService.csprojResolveAssemblyReference.cache
