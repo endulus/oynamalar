@@ -19,7 +19,10 @@ namespace WebClient
             c.ClientCredentials.UserName.UserName = "byshocala";
             c.ClientCredentials.UserName.Password = "none";
             var newSessionId = c.ValidateTransfer("", userId, transferId, token);
-
+            if (newSessionId != null)
+            {
+                lbl.Text = "Successfully Authenticated <br/>" + userId + " + " + newSessionId;
+            }
         }
     }
 }

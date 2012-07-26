@@ -3,3 +3,4 @@ D:\DATA\Documents\GitHub\oynamalar\AuthTest\Common\bin\Debug\Common.pdb
 D:\DATA\Documents\GitHub\oynamalar\AuthTest\Common\obj\Debug\Common.dll
 D:\DATA\Documents\GitHub\oynamalar\AuthTest\Common\obj\Debug\Common.pdb
 D:\DATA\Documents\GitHub\oynamalar\AuthTest\Common\bin\Debug\Sider.dll
+D:\DATA\Documents\GitHub\oynamalar\AuthTest\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache

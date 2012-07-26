@@ -34,13 +34,14 @@ namespace AuthService.CoreModel
             var result = red.Get("transfertoken:" + transferId);
             if (!string.IsNullOrEmpty(result))
             {
-                red.Del("transfertoken:" + transferToken);
+                var redResult = red.Del("transfertoken:" + transferId);
 
                 var redapp = new RedisClient<AppRegistry>();
                 redapp.Select(1);
                 var app = redapp.Get(HttpContext.Current.Items["AppId"] as string);
 
                 var str = "UserId=" + userId + "&TransferId=" + transferId + "&Salt=" + app.AppSecret ;
+                str = Hash.GetHash(str, Hash.HashType.SHA256);
 
                 if (transferToken != str)
                 {

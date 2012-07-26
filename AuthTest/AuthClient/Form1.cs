@@ -46,7 +46,10 @@ namespace AuthClient
                 AddHeader();
                 t.GetData(12);
             }
-            
+            return;
+           
+
+
         }
 
         private static void AddHeader()
